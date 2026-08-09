@@ -1,7 +1,6 @@
 
 "use client";
 
-
 import { useState, useEffect, useCallback } from 'react';
 import useLocalStorage from './useLocalStorage';
 import { useNotifications } from './useNotifications';
@@ -10,6 +9,7 @@ import { LOCAL_STORAGE_KEYS, StoredAlarm } from '@/lib/constants';
 import { useSettings } from '@/providers/SettingsProvider';
 
 export const useAlarm = () => {
+  
   const [storedAlarm, setStoredAlarm] = useLocalStorage<StoredAlarm | null>(
     LOCAL_STORAGE_KEYS.ALARM,
     null // Initial value is null
