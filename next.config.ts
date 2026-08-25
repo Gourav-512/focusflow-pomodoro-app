@@ -12,7 +12,6 @@ const withPWA = require("@ducanh2912/next-pwa").default({
   workboxOptions: {
     disableDevLogs: true,
   },
-  
   manifest: {
     name: 'FocusFlow – Pomodoro Timer',
     short_name: 'FocusFlow',
