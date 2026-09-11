@@ -5,7 +5,7 @@
   "description": "Increase productivity with the Pomodoro technique.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#1A237E",
+  "background_color": "#1A237F",
   "theme_color": "#64B5F6",
   "icons": [
     {
